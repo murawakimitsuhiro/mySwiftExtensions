@@ -31,6 +31,7 @@
 
 ### NSObject
 - 自身のクラス名をStringで返すプロパティ。
+```className        ```
 
 ### NSPredicate
 - 期間をDate型で指定するとその期間内かどうかを判別するPredicateを返す。(nilなら無期限)
