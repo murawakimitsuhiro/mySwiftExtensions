@@ -31,7 +31,6 @@
 
 ### NSObject
 - 自身のクラス名をStringで返すプロパティ。
-```className``` 
 
 ### NSPredicate
 - 期間をDate型で指定するとその期間内かどうかを判別するPredicateを返す。(nilなら無期限)
@@ -79,7 +78,7 @@
 
 ### CALayer
 - 簡易的に丸くする。
-```adjustCircle()```
+```adjustCircle()            ```
 
 ### UIColor
 - テキストから生成。  ex: ("255,000,255") -> 紫色ができる。
@@ -105,7 +104,7 @@
 ### UIView
 - subViewを全て削除する。
 ```removeAllSubviews(_ parentView: UIView)```
-```removeAllSubviews()```
+```removeAllSubviews()                   ```
 
 - 指定した部分だけを表示するようにする。(マスクを追加する)
 ```setMaskRect(rect: CGRect)```
@@ -135,7 +134,7 @@
 
 ### UIScrollView
 - 中心を取得、指定できる計算プロパティ
-```contentOffsetCenter:CGPoint```
+```contentOffsetCenter:CGPoint                ```
 
 - contentViewがはみ出ないようにContentSizeを調節する。
 ```adjustContentSize(_ margin:CGFloat = 0.0)```
@@ -161,10 +160,10 @@ presentPopver(
 
 #### UIApplication
 - 最前面のViewControllerを取得する。
-```shared.topViewController```
+```shared.topViewController           ```
 
 - 最前面のNavigationControllerを取得する。
-```shared.NavigationController```
+```shared.NavigationController        ```
 
 ## AVFoundation Extension
 ### AVAsset
