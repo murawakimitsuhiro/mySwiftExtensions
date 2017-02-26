@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA89839D1E62F1E2009A79D9 /* UIView+highLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA89839C1E62F1E2009A79D9 /* UIView+highLight.swift */; };
+		EA89839F1E62F32F009A79D9 /* NSObject+ScreenSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA89839E1E62F32F009A79D9 /* NSObject+ScreenSize.swift */; };
 		EAD0A9921E5A933E00427D39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD0A9911E5A933E00427D39 /* AppDelegate.swift */; };
 		EAD0A9941E5A933E00427D39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD0A9931E5A933E00427D39 /* ViewController.swift */; };
 		EAD0A9971E5A933E00427D39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD0A9951E5A933E00427D39 /* Main.storyboard */; };
@@ -56,6 +58,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EA89839C1E62F1E2009A79D9 /* UIView+highLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+highLight.swift"; sourceTree = "<group>"; };
+		EA89839E1E62F32F009A79D9 /* NSObject+ScreenSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+ScreenSize.swift"; sourceTree = "<group>"; };
 		EAD0A98E1E5A933E00427D39 /* mySwiftExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mySwiftExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAD0A9911E5A933E00427D39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAD0A9931E5A933E00427D39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -224,6 +228,7 @@
 				EAF9E7931E5E96740094D8C2 /* UIView+removeAllSubviews.swift */,
 				EAF9E7941E5E96740094D8C2 /* UIViewController+barHeights.swift */,
 				EAF9E7951E5E96740094D8C2 /* UIViewController+popUpPresent.swift */,
+				EA89839C1E62F1E2009A79D9 /* UIView+highLight.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -232,6 +237,7 @@
 			isa = PBXGroup;
 			children = (
 				EAF9E7C11E5E98130094D8C2 /* NSObject+className.swift */,
+				EA89839E1E62F32F009A79D9 /* NSObject+ScreenSize.swift */,
 				EAF9E7C21E5E98130094D8C2 /* NSPredicate+Initializers.swift */,
 			);
 			path = Cocoa;
@@ -356,6 +362,7 @@
 				EAF9E7C41E5E98130094D8C2 /* NSObject+className.swift in Sources */,
 				EAF9E7BA1E5E96740094D8C2 /* UIView+IBSettings.swift in Sources */,
 				EAF9E7A61E5E96740094D8C2 /* CGPoint+initComplex.swift in Sources */,
+				EA89839F1E62F32F009A79D9 /* NSObject+ScreenSize.swift in Sources */,
 				EAF9E7C71E5E983A0094D8C2 /* CGContext+conectPoint.swift in Sources */,
 				EAF9E7A91E5E96740094D8C2 /* CGRect+vertexPoint.swift in Sources */,
 				EAF9E7B11E5E96740094D8C2 /* UIGestureRecognizerClosure.swift in Sources */,
@@ -368,6 +375,7 @@
 				EAF9E7A51E5E96740094D8C2 /* CGPoint+distance.swift in Sources */,
 				EAF9E7B71E5E96740094D8C2 /* UIView+autoLayout.swift in Sources */,
 				EAF9E7BC1E5E96740094D8C2 /* UIView+removeAllSubviews.swift in Sources */,
+				EA89839D1E62F1E2009A79D9 /* UIView+highLight.swift in Sources */,
 				EAF9E7B01E5E96740094D8C2 /* UIColor+rgb.swift in Sources */,
 				EAF9E7AA1E5E96740094D8C2 /* CGSize+computedProperties.swift in Sources */,
 			);

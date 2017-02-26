@@ -33,6 +33,9 @@
 - 自身のクラス名をStringで返すプロパティ。
 ```className        ```
 
+- スクリーンのサイズを返すプロパティ(横向き対応)
+```screenSize: CGSize```
+
 ### NSPredicate
 - 期間をDate型で指定するとその期間内かどうかを判別するPredicateを返す。(nilなら無期限)
 ```init(_ : String, fromDate: NSDate?, toDate: NSDate?)```
@@ -128,6 +131,10 @@
 
 - storyBoardからlayer関連も値も設定できるようにする。
 ```cornerRadius: CGFloat``` ```borderColor: UIColor?``` ```borderWidth: CGFloat``` ```masksToBounds: Bool``` ```circle: Bool```
+
+- UIButtonを押した時のようなハイライトを簡易的に行う。
+```showHighLight()   ```
+```dismissHighLight()````
 
 ### UIButton
 - クロージャ形式でボタンのアクションを追加する。
