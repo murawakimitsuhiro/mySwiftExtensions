@@ -31,7 +31,7 @@
 
 ### NSObject
 - 自身のクラス名をStringで返すプロパティ。
-```className        ```
+```className: String```
 
 - スクリーンのサイズを返すプロパティ(横向き対応)
 ```screenSize: CGSize```
@@ -134,7 +134,7 @@
 
 - UIButtonを押した時のようなハイライトを簡易的に行う。
 ```showHighLight()   ```
-```dismissHighLight()````
+```dismissHighLight()```
 
 ### UIButton
 - クロージャ形式でボタンのアクションを追加する。
