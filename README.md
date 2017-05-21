@@ -133,8 +133,8 @@
 ```cornerRadius: CGFloat``` ```borderColor: UIColor?``` ```borderWidth: CGFloat``` ```masksToBounds: Bool``` ```circle: Bool```
 
 - UIButtonを押した時のようなハイライトを簡易的に行う。
-```showHighLight()   ```
-```dismissHighLight()```
+```showHighLight()     ```
+```dismissHighLight()     ```
 
 ### UIButton
 - クロージャ形式でボタンのアクションを追加する。

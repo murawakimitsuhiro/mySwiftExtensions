@@ -14,6 +14,7 @@
 		EAD0A9971E5A933E00427D39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD0A9951E5A933E00427D39 /* Main.storyboard */; };
 		EAD0A9991E5A933E00427D39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAD0A9981E5A933E00427D39 /* Assets.xcassets */; };
 		EAD0A99C1E5A933E00427D39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD0A99A1E5A933E00427D39 /* LaunchScreen.storyboard */; };
+		EAE4244F1ED04CC0008D21E7 /* UIView+gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE4244E1ED04CC0008D21E7 /* UIView+gradient.swift */; };
 		EAF9E7961E5E96740094D8C2 /* AVPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF9E7691E5E96740094D8C2 /* AVPlayerView.swift */; };
 		EAF9E7971E5E96740094D8C2 /* UIPlaceHolderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF9E76A1E5E96740094D8C2 /* UIPlaceHolderTextView.swift */; };
 		EAF9E7981E5E96740094D8C2 /* Array+RemoveValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF9E76D1E5E96740094D8C2 /* Array+RemoveValue.swift */; };
@@ -67,6 +68,7 @@
 		EAD0A9981E5A933E00427D39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAD0A99B1E5A933E00427D39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EAD0A99D1E5A933E00427D39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAE4244E1ED04CC0008D21E7 /* UIView+gradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+gradient.swift"; sourceTree = "<group>"; };
 		EAF9E7691E5E96740094D8C2 /* AVPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVPlayerView.swift; sourceTree = "<group>"; };
 		EAF9E76A1E5E96740094D8C2 /* UIPlaceHolderTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIPlaceHolderTextView.swift; sourceTree = "<group>"; };
 		EAF9E76D1E5E96740094D8C2 /* Array+RemoveValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+RemoveValue.swift"; sourceTree = "<group>"; };
@@ -220,6 +222,7 @@
 				EAF9E78B1E5E96740094D8C2 /* UIScrollView+contentOffsetCenter.swift */,
 				EAF9E78C1E5E96740094D8C2 /* UIScrollView+fitSize.swift */,
 				EAF9E78D1E5E96740094D8C2 /* UIView+animation.swift */,
+				EAE4244E1ED04CC0008D21E7 /* UIView+gradient.swift */,
 				EAF9E78E1E5E96740094D8C2 /* UIView+autoLayout.swift */,
 				EAF9E78F1E5E96740094D8C2 /* UIView+generateScreenshot.swift */,
 				EAF9E7901E5E96740094D8C2 /* UIView+getRelativePoint.swift */,
@@ -359,6 +362,7 @@
 				EAF9E7AF1E5E96740094D8C2 /* UIButton+Actionhandler.swift in Sources */,
 				EAF9E7971E5E96740094D8C2 /* UIPlaceHolderTextView.swift in Sources */,
 				EAF9E7AB1E5E96740094D8C2 /* CGSize+initSquare.swift in Sources */,
+				EAE4244F1ED04CC0008D21E7 /* UIView+gradient.swift in Sources */,
 				EAF9E7C41E5E98130094D8C2 /* NSObject+className.swift in Sources */,
 				EAF9E7BA1E5E96740094D8C2 /* UIView+IBSettings.swift in Sources */,
 				EAF9E7A61E5E96740094D8C2 /* CGPoint+initComplex.swift in Sources */,
@@ -502,6 +506,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 58347496P5;
 				INFOPLIST_FILE = mySwiftExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = m.m.mySwiftExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -515,6 +520,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 58347496P5;
 				INFOPLIST_FILE = mySwiftExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = m.m.mySwiftExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";

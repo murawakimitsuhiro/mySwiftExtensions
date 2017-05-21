@@ -9,14 +9,30 @@
 import Foundation
 import UIKit
 
-extension UIView{
-    func showHighLight() {
+public extension UIView{
+    
+    public func applyTouchDownHighLight(){
+        addGestureRecognizer(UIGestureRecognizer(trailingClosure: { (gesture) in
+            if gesture.state == .began {
+                self.showHighLight()
+                return
+            }
+            
+            if gesture.state == .ended || gesture.state == .cancelled {
+                self.dismissHighLight()
+                return
+            }
+            
+        }))
+    }
+    
+    public func showHighLight() {
         let highLightLayer = HighLightLayer()
         highLightLayer.frame.size = frame.size
         layer.addSublayer(highLightLayer)
     }
     
-    func dismissHighLight() {
+    public func dismissHighLight() {
         layer.sublayers?.forEach({ subLayer in
             if subLayer is HighLightLayer {
                 subLayer.removeFromSuperlayer()
