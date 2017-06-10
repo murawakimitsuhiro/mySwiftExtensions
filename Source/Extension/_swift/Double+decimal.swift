@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension Double {
+public extension Double {
     /**
      小数点第 decimalPlace 位で四捨五入する。
     */

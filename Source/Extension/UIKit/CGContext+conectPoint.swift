@@ -9,10 +9,10 @@
 import Foundation
 import UIKit
 
-extension CGContext {
+public extension CGContext {
     
     ///二点間をつなぐContextを生成
-    func conectPoint(_ a:CGPoint, _ b:CGPoint, color: UIColor, lineWidth:CGFloat = 2.0) -> CGContext {
+    public func conectPoint(_ a:CGPoint, _ b:CGPoint, color: UIColor, lineWidth:CGFloat = 2.0) -> CGContext {
         var beginP = a
         var endP = b
         

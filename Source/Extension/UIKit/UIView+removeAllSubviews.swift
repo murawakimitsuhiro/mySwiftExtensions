@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-extension UIView {
+public extension UIView {
     public static func removeAllSubviews(_ parentView: UIView) {
         let subviews = parentView.subviews
         subviews.forEach { view in

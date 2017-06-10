@@ -9,8 +9,8 @@
 import Foundation
 import UIKit
 
-extension UIView {
-    func gradient(_ colorA: UIColor, _ colorB: UIColor, isSideways: Bool = false) {
+public extension UIView {
+    public func gradient(_ colorA: UIColor, _ colorB: UIColor, isSideways: Bool = false) {
         let topColor = UIColor(red:0.07, green:0.13, blue:0.26, alpha:1)
         let bottomColor = UIColor(red:0.54, green:0.74, blue:0.74, alpha:1)
         

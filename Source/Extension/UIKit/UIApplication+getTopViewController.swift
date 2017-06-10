@@ -9,9 +9,9 @@
 import Foundation
 import UIKit
 
-extension UIApplication {
+public extension UIApplication {
     /** Usage: UIApplication.shared.topViewController */
-    var topViewController: UIViewController? {
+    public var topViewController: UIViewController? {
         guard var topViewController = UIApplication.shared.keyWindow?.rootViewController else { return nil }
         
         while let presentedViewController = topViewController.presentedViewController {
@@ -21,7 +21,7 @@ extension UIApplication {
     }
     
     /** Usage: UIApplication.shared.topNavigationController */
-    var topNavigationController: UINavigationController? {
+    public var topNavigationController: UINavigationController? {
         return topViewController as? UINavigationController
     }
 }

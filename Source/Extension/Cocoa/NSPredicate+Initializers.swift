@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension NSPredicate {
+public extension NSPredicate {
     ///property が 指定期間内にあるかどうか
     public convenience init(_ property: String, fromDate: NSDate?, toDate: NSDate?) {
         var format = "", args = [AnyObject]()

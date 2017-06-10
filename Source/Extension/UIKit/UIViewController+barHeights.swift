@@ -25,4 +25,20 @@ public extension UIViewController {
     public var topBarHeight:CGFloat {
         return stateBarHeight + navBarHeight
     }
+    
+    public static var stateBarHeight: CGFloat {
+        return UIApplication.shared.statusBarFrame.height
+    }
+    
+    public static var navBarHeight: CGFloat {
+        guard let navigationController = UIApplication.shared.topNavigationController else {
+            return 0
+        }
+        
+        return navigationController.navigationBar.frame.size.height
+    }
+    
+    public static var topBarHeight: CGFloat {
+        return UIViewController.stateBarHeight + UIViewController.navBarHeight
+    }
 }

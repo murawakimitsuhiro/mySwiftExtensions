@@ -8,8 +8,8 @@
 
 import Foundation
 
-extension Date {
-    var year:Int {
+public extension Date {
+    public var year:Int {
         get {
             return NSCalendar.current.component(.year, from: self)
         }
@@ -23,7 +23,7 @@ extension Date {
         }
     }
     
-    var month:Int {
+    public var month:Int {
         get {
             return NSCalendar.current.component(.month, from: self)
         }
@@ -37,7 +37,7 @@ extension Date {
         }
     }
     
-    var day:Int {
+    public var day:Int {
         get {
            return NSCalendar.current.component(.day, from: self)
         }

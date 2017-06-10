@@ -9,8 +9,8 @@
 import Foundation
 import UIKit
 
-extension UIScrollView {
-    func adjustContentSize(_ margin:CGFloat = 0.0) {
+public extension UIScrollView {
+    public func adjustContentSize(_ margin:CGFloat = 0.0) {
         for i in 0 ..< self.subviews.count {
             if subviews[i].frame.endPoint.x > self.contentSize.width {
                 self.contentSize.width += subviews[i].frame.endPoint.x - self.contentSize.width + margin

@@ -8,9 +8,9 @@
 
 import Foundation
 
-extension Array {
+public extension Array {
     /** 入れ替え */
-     mutating func replacement(index1 a:Int, index2 b:Int) {
+     public mutating func replacement(index1 a:Int, index2 b:Int) {
         if self.count < a && self.count < b {
             print("Array range over.")
             return

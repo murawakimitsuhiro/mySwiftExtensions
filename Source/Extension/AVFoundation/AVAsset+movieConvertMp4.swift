@@ -8,8 +8,7 @@
 
 import AVFoundation
 
-extension AVAsset {
-    
+public extension AVAsset {
     /**
      mp4に変換する
      */
