@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 public extension NSObject {
-    public var screenSize: CGSize {
+    public static var screenSize: CGSize {
         let screenSize = UIScreen.main.bounds.size;
         if NSFoundationVersionNumber <= NSFoundationVersionNumber_iOS_7_1
             && UIInterfaceOrientationIsLandscape(UIApplication.shared.statusBarOrientation) {
