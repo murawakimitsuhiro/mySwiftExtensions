@@ -10,6 +10,9 @@ import Foundation
 
 public enum DateStirngformatType: String {
     case yMdHmsZ = "yyyy/MM/dd HH:mm:ss Z"
+    case yMd = "yyyy/MM/dd"
+    case MHJap = "MM月dd日"
+    case yMHJap = "yyyy年MM月dd日"
     //ここに追加していく
 }
 
