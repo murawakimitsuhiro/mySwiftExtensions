@@ -17,9 +17,13 @@ public extension UIAlertController {
         controller.present(alert, animated: true, completion: nil)
     }
     
-    public static func showTextInputAlert(_ title: String?, message: String?,
-                                          controller: UIViewController, editedSelector: Selector, isSeacret: Bool = false) {
-        let alert: UIAlertController = UIAlertController(title: "title", message: "message", preferredStyle: UIAlertControllerStyle.alert)
+    public static func showTextInputAlert(_ title: String?,
+                                          message: String?,
+                                          controller: UIViewController,
+                                          defaultText: String = "",
+                                          editedSelector: Selector,
+                                          isSeacret: Bool = false) {
+        let alert: UIAlertController = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.alert)
         
         let okAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.default) { (action: UIAlertAction!) -> Void in
             NotificationCenter.default.removeObserver(controller, name: NSNotification.Name.UITextFieldTextDidChange, object: nil)
@@ -31,6 +35,7 @@ public extension UIAlertController {
         
         alert.addTextField { (textField: UITextField!) -> Void in
             
+            textField.text = defaultText
             textField.isSecureTextEntry = isSeacret
             
             NotificationCenter.default.addObserver(controller, selector: editedSelector, name: NSNotification.Name.UITextFieldTextDidChange, object: nil)
