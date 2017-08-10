@@ -38,7 +38,7 @@ public extension UIAlertController {
             textField.text = defaultText
             textField.isSecureTextEntry = isSeacret
             
-            NotificationCenter.default.addObserver(controller, selector: editedSelector, name: NSNotification.Name.UITextFieldTextDidChange, object: nil)
+            NotificationCenter.default.addObserver(controller, selector: editedSelector, name: NSNotification.Name.UITextFieldTextDidEndEditing, object: nil)
         }
         
         alert.addAction(okAction)
