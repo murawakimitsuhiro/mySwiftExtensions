@@ -13,6 +13,7 @@ public enum DateStirngformatType: String {
     case yMd = "yyyy/MM/dd"
     case MHJap = "MM月dd日"
     case yMHJap = "yyyy年MM月dd日"
+    case yMdjs = "yyyy-MM-dd"
     //ここに追加していく
 }
 
